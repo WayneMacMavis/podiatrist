@@ -125,7 +125,7 @@ src={Image3}
           marginLeft: '60px',
         }}>
         <Col style={{
-          marginTop: '50px',
+          marginTop: '80px',
         }}>
           <img style={{height: '50vh', margin: 'auto',}}
           className="d-block w-100"
@@ -139,29 +139,36 @@ src={Pic}
           textAlign: 'left', 
           marginTop: '50px',
         }}>
-          <h1 style={{color: '#008080',}}>Podiatrist</h1>
-<p>Commodo nulla facilisi nullam vehicula ipsum. In fermentum posuere urna nec tincidunt praesent semper feugiat. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Libero justo laoreet sit amet cursus sit. Elementum eu facilisis sed odio morbi quis. Orci sagittis eu volutpat odio facilisis mauris. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet risus nullam eget felis eget. Pretium lectus quam id leo.</p>
-<p>Adipiscing elit duis tristique sollicitudin nibh sit. Ultrices sagittis orci a scelerisque purus semper. Tristique senectus et netus et. Integer eget aliquet nibh praesent. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Sit amet nisl purus in mollis nunc sed. Congue quisque egestas diam in arcu cursus euismod quis. Eu consequat ac felis donec et odio pellentesque diam. Mollis aliquam ut porttitor leo.</p>
+          <h1 style={{color: '#008080', }}>Podiatrist</h1>
+<p style={{fontSize: '18px'}}>Commodo nulla facilisi nullam vehicula ipsum. In fermentum posuere urna nec tincidunt praesent semper feugiat. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Libero justo laoreet sit amet cursus sit. Elementum eu facilisis sed odio morbi quis. Orci sagittis eu volutpat odio facilisis mauris. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet risus nullam eget felis eget. Pretium lectus quam id leo.</p>
+<p style={{fontSize: '18px'}}>Adipiscing elit duis tristique sollicitudin nibh sit. Ultrices sagittis orci a scelerisque purus semper. Tristique senectus et netus et. Integer eget aliquet nibh praesent. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Sit amet nisl purus in mollis nunc sed. Congue quisque egestas diam in arcu cursus euismod quis. Eu consequat ac felis donec et odio pellentesque diam. Mollis aliquam ut porttitor leo.</p>
 
       </Col>
       <Col className='col' style={{
           textAlign: 'left', 
-          marginTop: '50px',
+          marginTop: '90px',
         }}>
-          <h3 style={{fontSize: '23px', color: '#008080',}}>ADDRESS :</h3>
-          <h4 style={{fontSize: '19px'}}>123 Unknown Road, Table View, Cape Town</h4>
-<h3 style={{fontSize: '23px', color: '#008080',}}>OFFICE HOURS</h3>
+          <h3 style={{fontSize: '22px', color: '#008080', }}>ADDRESS :</h3>
+          <h4 style={{fontSize: '19px', marginBottom: '20px'}}>123 Unknown Road, Table View, Cape Town</h4>
+<h3 style={{fontSize: '22px', color: '#008080',}}>OFFICE HOURS</h3>
           <h4 style={{fontSize: '19px'}}>Monday-Thursday: 10am-5pm</h4>
           <h4 style={{fontSize: '19px'}}>Friday: 10am-5pm</h4>
-          <h4 style={{fontSize: '19px'}}>Saterday-Sunday: (Closed)</h4>
-          <h3 style={{fontSize: '23px', color: '#008080',}}>CONTACT DETAILS</h3>
+          <h4 style={{fontSize: '19px', marginBottom: '20px'}}>Saterday-Sunday: (Closed)</h4>
+          <h3 style={{fontSize: '22px', color: '#008080',}}>CONTACT DETAILS</h3>
           <h4 style={{fontSize: '19px'}}>+27 12 345 6789</h4>
           <h4 style={{fontSize: '19px', color: ' #000080'}}>bookings@business.com</h4>
           <h4 style={{fontSize: '19px'}}>Whatsapp, Email, or book online for appointments</h4>
 
       </Col>
       </Row>
-
+      <div className="btn-container" style={{display: 'flex', alignItems: 'center', flexDirection: 'row', width: '100%', marginBottom: '20px'}}>
+          <Button className="btn btn-primary" style={{width: '50%', boxShadow: '2px 2px 8px #888888', backgroundColor: '#008080',}} variant="primary" size="lg" active>
+    TREATMENT INFO & FAQ's
+  </Button>{' '}
+  <Button className="btn btn-primary" style={{width: '50%',  marginLeft: '40px',  boxShadow: '2px 2px 8px #888888', backgroundColor: ' #000080',}} variant="primary" size="lg" active>
+    BOOKINGS AND ENQUIRES
+  </Button>{' '}
+  </div>
   </div>
   );
 }
