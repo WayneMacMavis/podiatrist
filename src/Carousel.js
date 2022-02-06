@@ -66,7 +66,7 @@ src={Logo}
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
         <Nav.Item className='item'>
-        <a> <Nav.Link className="link" style={{color: '#008080',}} href="/home"><h5>HOME</h5></Nav.Link></a>
+        <Nav.Link className="link" style={{color: '#008080',}} href="/home"><h5>HOME</h5></Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link style={{color: '#008080',}}eventKey="link-1"><h5>TREATMENTS</h5></Nav.Link>
