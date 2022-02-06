@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet'
 import './index.css';
 import Carousel from './Carousel';
 import ReactDOM,{ render } from "react-dom";
@@ -6,8 +7,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import reportWebVitals from './reportWebVitals';
 // import Carousel from './carousel.js';
 
+const TITLE = 'Podiatrist Website';
+
 ReactDOM.render(
   <React.StrictMode>
+    <Helmet>
+          <title>{ TITLE }</title>
+        </Helmet>
     <Carousel />
   </React.StrictMode>,
   document.getElementById('root')

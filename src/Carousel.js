@@ -83,8 +83,8 @@ src={Logo}
       </Navbar.Collapse>
     </Navbar>
 
-    <Carousel fade className="carousel" style={{position: 'relative', height: '100%',boxShadow: '5px 5px 8px #888888', marginTop: '5vh'}}>
-      <Carousel.Item interval={5000}>
+    <Carousel fade className="carousel" style={{position: 'relative', height: '100%',boxShadow: '5px 5px 8px #888888', marginTop: '5vh', marginBottom: '100vh,'}}>
+      <Carousel.Item interval={3000}>
         <img style={{width: '100vw', height: '60vh', margin: 'auto',}}
 src={Image}
           alt="One"
@@ -94,7 +94,7 @@ src={Image}
           <p>Sample Text for Image One</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={5000}>
+      <Carousel.Item interval={3000}>
         <img style={{height: '60vh', margin: 'auto',}}
 src={Image2}
           alt="Two"
@@ -104,7 +104,7 @@ src={Image2}
           <p>Sample Text for Image Two</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={5000}>
+      <Carousel.Item interval={3000}>
         <img style={{height: '60vh', margin: 'auto',}}
 src={Image3}
           alt="Three"
@@ -119,15 +119,13 @@ src={Image3}
     <Row className="row" xs={12} md={12} lg={12} style={{
   display: 'flex',
   flexDirection: 'row',
-  padding: '40px',
+  // paddingRight: '100px',
           width: '75vw',
-          height: '50vh',
-          marginTop: '10px',
+          height: '70vh',
+          marginLeft: '60px',
         }}>
         <Col style={{
-          textAlign: 'center', 
-          margin: '30px',
-          marginRight: '-20px',
+          marginTop: '50px',
         }}>
           <img style={{height: '50vh', margin: 'auto',}}
           className="d-block w-100"
@@ -138,29 +136,28 @@ src={Pic}
         <Col className='col' xs={6} md={6} lg={6} style={{
           width: '25vw',
           height: `14vh`,
-          textAlign: 'center', 
-          margin: '30x',
+          textAlign: 'left', 
+          marginTop: '50px',
         }}>
-          <h1 style={{color: '#008080',}}>Podiatry</h1>
+          <h1 style={{color: '#008080',}}>Podiatrist</h1>
 <p>Commodo nulla facilisi nullam vehicula ipsum. In fermentum posuere urna nec tincidunt praesent semper feugiat. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Libero justo laoreet sit amet cursus sit. Elementum eu facilisis sed odio morbi quis. Orci sagittis eu volutpat odio facilisis mauris. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar. Sit amet risus nullam eget felis eget. Pretium lectus quam id leo.</p>
 <p>Adipiscing elit duis tristique sollicitudin nibh sit. Ultrices sagittis orci a scelerisque purus semper. Tristique senectus et netus et. Integer eget aliquet nibh praesent. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Sit amet nisl purus in mollis nunc sed. Congue quisque egestas diam in arcu cursus euismod quis. Eu consequat ac felis donec et odio pellentesque diam. Mollis aliquam ut porttitor leo.</p>
 
       </Col>
       <Col className='col' style={{
-          height: `10vh`,
-          textAlign: 'center', 
-          marginTop: '30px',
+          textAlign: 'left', 
+          marginTop: '50px',
         }}>
-          <h3 style={{color: '#008080',}}>ADDRESS :</h3>
-          <h4 style={{fontSize: '18px'}}>123 Unknown Road, Table View, Cape Town</h4>
-<h3 style={{color: '#008080',}}>OFFICE HOURS</h3>
-          <h4 style={{fontSize: '18px'}}>Monday-Thursday: 10am-5pm</h4>
-          <h4 style={{fontSize: '18px'}}>Friday: 10am-5pm</h4>
-          <h4 style={{fontSize: '18px'}}>Saterday-Sunday: (Closed)</h4>
-          <h3 style={{color: '#008080',}}>CONTACT DETAILS</h3>
-          <h4 style={{fontSize: '18px'}}>+27 12 345 6789</h4>
-          <h4 style={{fontSize: '18px', color: ' #000080'}}>bookings@business.com</h4>
-          <h4 style={{fontSize: '18px'}}>Whatsapp, Email, or book online for appointments</h4>
+          <h3 style={{fontSize: '23px', color: '#008080',}}>ADDRESS :</h3>
+          <h4 style={{fontSize: '19px'}}>123 Unknown Road, Table View, Cape Town</h4>
+<h3 style={{fontSize: '23px', color: '#008080',}}>OFFICE HOURS</h3>
+          <h4 style={{fontSize: '19px'}}>Monday-Thursday: 10am-5pm</h4>
+          <h4 style={{fontSize: '19px'}}>Friday: 10am-5pm</h4>
+          <h4 style={{fontSize: '19px'}}>Saterday-Sunday: (Closed)</h4>
+          <h3 style={{fontSize: '23px', color: '#008080',}}>CONTACT DETAILS</h3>
+          <h4 style={{fontSize: '19px'}}>+27 12 345 6789</h4>
+          <h4 style={{fontSize: '19px', color: ' #000080'}}>bookings@business.com</h4>
+          <h4 style={{fontSize: '19px'}}>Whatsapp, Email, or book online for appointments</h4>
 
       </Col>
       </Row>
