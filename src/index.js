@@ -1,12 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Carousel from './Carousel';
+import ReactDOM,{ render } from "react-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import reportWebVitals from './reportWebVitals';
+// import Carousel from './carousel.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Carousel />
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -15,3 +17,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+render( document.getElementById("root"));
