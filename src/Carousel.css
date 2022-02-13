@@ -55,6 +55,7 @@
       margin-top: -5vh;
       margin-right: -150vh;
       /* background-color: #000080; */
+      z-index: 50;
   }
 
   .mr-auto {
@@ -94,12 +95,13 @@
                       left: 10%;
                       right: 0%;
                       height: 100vh;
-                      margin-bottom: 10%;
+                      margin-bottom: 10vh;
                       }
 
                       .col-three {
                         min-width: 100%;
-                        margin-left: 0vw;
+                              margin-left: 0vw;
+                              padding-top: 100%;
                       }
 
                       .row-four {
@@ -156,6 +158,7 @@
             margin-top: 25vh;
             margin-right: 0vh;
             /* background-color: #000080; */
+            z-index: 50;
         }
 
         .mr-auto {
@@ -182,32 +185,35 @@
                     }
 
                     .d-block-two {
-                        max-width: 100%;
-                        margin-top: 130%;
+                        max-width: 100px;
+                        margin-top: 160%;
                         margin-bottom: 10%;
                         margin-left: 5%;
                         }
 
                         .col-two {
+                          position: relative;
                             text-align: center;
                             width: 93vw;
                             top: 60%;
-                            padding-right: 10%;
+                            padding-right: 25%;
                             height: 50vh;
                             }
                             .col-three {
                               min-width: 100%;
                               margin-left: 0vw;
-                              padding-top: 100%;
+                              margin-top: 400px;
+                              padding-top: 100px;
                             }
                             .row-four {
                               min-height: 5vh;
                             }
                             .col-four {
-                                min-width: 70%;
+                                min-width: 60%;
                                 margin-top: -1.5%;
-                                margin-left: 45%;
+                                margin-left: 20%;
                                 font-size: 13px;
+                                overflow-wrap: normal;
                                 }
                     .btn-container-two {
                         /* position: absolute; */
