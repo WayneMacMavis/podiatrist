@@ -94,7 +94,7 @@
                       top: 60%;
                       left: 10%;
                       right: 0%;
-                      height: 100vh;
+                      height: 100%;
                       margin-bottom: 10vh;
                       }
 
@@ -182,6 +182,7 @@
                     width: 100%;
                     margin-top: 300%;
                     height: 200%;
+                    white-space: normal;
                     }
 
                     .d-block-two {
@@ -194,16 +195,18 @@
                         .col-two {
                           position: relative;
                             text-align: center;
-                            width: 93vw;
+                            width: 80%;
                             top: 60%;
-                            padding-right: 25%;
-                            height: 50vh;
+                            /* padding-right: 25%; */
+                            left: 3%;
+                            height: 100%;
                             }
                             .col-three {
+                              height: 50px;
                               min-width: 100%;
                               margin-left: 0vw;
-                              margin-top: 400px;
-                              padding-top: 100px;
+                              margin-bottom: 90%;
+                              margin-top: -360px;
                             }
                             .row-four {
                               min-height: 5vh;
