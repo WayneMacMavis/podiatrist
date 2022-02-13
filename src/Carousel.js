@@ -182,12 +182,12 @@ src={Pic}
           Built by Wayne Mac Mavis
       </Col>
       <Col className='col-four' style={{
-        marginLeft: '-7%',
+        marginLeft: '-8%',
         cursor: 'pointer',
         }}>
-          <FontAwesomeIcon icon={faFacebookSquare}size='2x' style={{marginRight: '9px'}}/>
-          <FontAwesomeIcon icon={faInstagram}size='2x' style={{marginRight: '9px'}}/>
-          <FontAwesomeIcon icon={faTwitter}size='2x' style={{marginRight: '9px'}}/>
+          <FontAwesomeIcon icon={faFacebookSquare}size='2x' style={{marginRight: '12px'}}/>
+          <FontAwesomeIcon icon={faInstagram}size='2x' style={{marginRight: '12px'}}/>
+          <FontAwesomeIcon icon={faTwitter}size='2x' style={{marginRight: '12px'}}/>
           <FontAwesomeIcon icon={faYoutube}size='2x' style={{}}/>
       </Col>
       </div>
